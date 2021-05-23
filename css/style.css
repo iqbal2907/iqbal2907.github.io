@@ -37,7 +37,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-left: 4%;
 }
 .nav-list li{
 	list-style: none;
