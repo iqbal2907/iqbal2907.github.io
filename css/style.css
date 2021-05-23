@@ -18,6 +18,7 @@
 	font-size: 45px;
 	font-family: 'Noticia Text', serif;
 	color: #5e5757;
+	margin-bottom: 3%;
 }
 
 .myImg{
@@ -60,7 +61,7 @@
 }
 .nav-list li a:hover{
 	text-decoration: none;
-	color: #49d9f3;
+	color: #47cde6;
 }
 
 .container{
@@ -88,12 +89,9 @@
 	padding-right: 10%;
 	font-size: 20px;
 	font-family: 'Open Sans', sans-serif;
+	margin-top: 4%;
 }
-.about-me-imgs img{
-	width: 20%;
-	border-radius: 513px;
-	padding: 10px;
-}
+
 .footer {
 	background-color: #e13354;
 	display: flex;
@@ -115,3 +113,66 @@
 	font-family: 'Noticia Text', serif;
 	font-weight: bold;
 }
+
+.dot{
+	display: flex;
+}
+.reddot {
+	height: 150px;
+	width: 150px;
+	display: flex;
+	border-radius: 100%;
+	background-color: #e13354;;
+	margin-left: 2%;
+}
+
+.reddot a{
+	color: white;
+	background: content-box;
+	font-size: 15px;
+	margin-left: 20%;
+	margin-top: 42%;
+}
+.reddot a:hover{
+	text-decoration: none;
+	color: #5e5757;
+}
+.bluedot {
+	height: 150px;
+	width: 150px;
+	display: flex;
+	border-radius: 100%;
+	background-color: #47cde6;
+	margin-left: 5%;
+}
+.bluedot a{
+	color: white;
+	background: content-box;
+	font-size: 15px;
+	margin-left: 25%;
+	margin-top: 42%;
+}
+.bluedot a:hover{
+	text-decoration: none;
+	color: #5e5757;
+}
+.greendot {
+	height: 150px;
+	width: 150px;
+	display: flex;
+	border-radius: 100%;
+	background-color: #a7b543;
+	margin-left: 5%;
+}
+.greendot a{
+	color: white;
+	background: content-box;
+	font-size: 15px;
+	margin-left: 27%;
+	margin-top: 42%;
+}
+.greendot a:hover{
+	text-decoration: none;
+	color: #5e5757;
+}
+
