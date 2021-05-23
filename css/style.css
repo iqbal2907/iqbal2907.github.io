@@ -10,9 +10,9 @@
 }
 
 .text{
-	margin-left: 80px;
 	font-family: 'Noticia Text', serif;
 	color: #5e5757;
+	margin-left: 5%;
 }
 .text p {
 	font-size: 45px;
@@ -21,15 +21,9 @@
 	margin-bottom: 3%;
 }
 
-.myImg{
-	width: 35%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-.myImg img{
-	border: 3px solid #e1dfdf;	
-	border-radius: 500px;
+.container img{	
+	border-radius: 55%;
+	width: 40%;
 }
 
 .left-nav{
@@ -123,7 +117,6 @@
 	display: flex;
 	border-radius: 100%;
 	background-color: #e13354;;
-	margin-left: 2%;
 }
 
 .reddot a{
