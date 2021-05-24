@@ -1,5 +1,5 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
@@ -9,6 +9,9 @@
 	background: #e1dfdf;
 }
 
+.header{
+	display: flex;
+}
 .text{
 	font-family: 'Noticia Text', serif;
 	color: #5e5757;
@@ -21,28 +24,19 @@
 	margin-bottom: 3%;
 }
 
-.container img{	
-	border-radius: 55%;
-	width: 40%;
-}
-
-.left-nav{
-	display: flex;
-}
-.right-nav{
+.nav-bar{
 	display: flex;
 }
 .nav-list{
-	width: 100%;
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	margin-left: 5%;
 }
 .nav-list li{
 	list-style: none;
-	padding-left: 2%;
-	margin-top: 3%;
-	margin-bottom: 5%;
+	margin-top: 4%;
+	margin-left: 2%;
+	
 }
 .nav-list li a{
 	text-decoration: none;
@@ -59,30 +53,42 @@
 
 .container{
 	display: flex;
-	margin-left: 8%;
-	margin-bottom: 6%;
+	margin-left: 17%;
+	margin-right: 20%;
+}
+.container img{	
+	border-radius: 90%;
 }
 
-.name{
-	font-size: 50px;
+.name-desg {
+	margin-top: 2%;
+	margin-left: 21%;
+	margin-bottom: 4%;
+}
+.name-desg h3{
+	font-size: 43px;
 	font-family: 'Noticia Text', serif;
 	color: #5e5757;
-	margin-top: 2%;
-	margin-left: 14%;
-	font-weight: bold;
 }
+.name-desg p{
+	font-size: 18px;
+	font-family: 'Noticia Text', serif;
+	color: #5e5757;
+}
+
 .hello{
 	font-size: 50px;
 	margin-bottom: 4%;
 }
 .about-me{
-	font-size: 25px;
+	font-size: 40px;
 }
 .intro p{
-	padding-right: 10%;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Open Sans', sans-serif;
-	margin-top: 4%;
+	padding-left: 48%;
+	padding-right: 10%;
+	padding-bottom: 5%;
 }
 
 .footer {
@@ -112,7 +118,7 @@
 }
 .reddot {
 	height: 150px;
-	width: 150px;
+	width: 170px;
 	display: flex;
 	border-radius: 100%;
 	background-color: #e13354;;
@@ -122,8 +128,9 @@
 	color: white;
 	background: content-box;
 	font-size: 15px;
-	margin-left: 20%;
+	margin-left: 21%;
 	margin-top: 42%;
+	font-family: 'Open Sans', sans-serif;
 }
 .reddot a:hover{
 	text-decoration: none;
@@ -131,7 +138,7 @@
 }
 .bluedot {
 	height: 150px;
-	width: 150px;
+	width: 170px;
 	display: flex;
 	border-radius: 100%;
 	background-color: #47cde6;
@@ -141,8 +148,9 @@
 	color: white;
 	background: content-box;
 	font-size: 15px;
-	margin-left: 25%;
+	margin-left: 26%;
 	margin-top: 42%;
+	font-family: 'Open Sans', sans-serif;
 }
 .bluedot a:hover{
 	text-decoration: none;
@@ -150,7 +158,7 @@
 }
 .greendot {
 	height: 150px;
-	width: 150px;
+	width: 170px;
 	display: flex;
 	border-radius: 100%;
 	background-color: #a7b543;
@@ -160,8 +168,9 @@
 	color: white;
 	background: content-box;
 	font-size: 15px;
-	margin-left: 27%;
+	margin-left: 29%;
 	margin-top: 42%;
+	font-family: 'Open Sans', sans-serif;
 }
 .greendot a:hover{
 	text-decoration: none;
