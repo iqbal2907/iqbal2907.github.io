@@ -58,6 +58,8 @@
 }
 .container img{	
 	border-radius: 90%;
+	width: 50%;  
+	height: 50%; 
 }
 
 .name-desg {
